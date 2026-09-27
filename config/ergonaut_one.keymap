@@ -26,6 +26,14 @@
 };
 
 / {
+    // zmk-layer-hud に今のレイヤーと押したキーの位置を BLE で送る。
+    // heartbeat は HUD を後から起動しても 2 秒以内に表示が追いつくようにするため
+    layer_signal {
+        compatible = "zmk,layer-signal";
+        heartbeat-ms = <2000>;
+        positions;
+    };
+
     // BT の切り替えと同時に OS 用のレイヤーを確定させる。&tog は反転なので、
     // 今の状態に関係なく DEF か WIN だけにする &to を使う
     macros {
