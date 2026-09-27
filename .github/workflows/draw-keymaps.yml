@@ -9,6 +9,10 @@ on:
       - keymap-drawer/config.yaml
       - .github/workflows/draw-keymaps.yml
 
+# 描いた図をコミットし直して push するため
+permissions:
+  contents: write
+
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
