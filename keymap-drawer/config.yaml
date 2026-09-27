@@ -20,6 +20,8 @@ parse_config:
     '&out OUT_USB': Out USB
     '&out OUT_BLE': Out BLE
 
+    '&mac_bt': BT 1 Mac
+    '&win_bt': BT 2 Win
     '&bt BT_SEL 0': BT 1
     '&bt BT_SEL 1': BT 2
     '&bt BT_SEL 2': BT 3
