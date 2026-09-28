@@ -17,6 +17,14 @@ parse_config:
     '&kp LS(INS)': Paste
     '&kp LG(L)': Lock
 
+    # The thumb and pinky hold-taps: USB names (LANG1, Gui) become what they do on this layout
+    '&mt LGUI LANG2': {t: 英数, h: Cmd}
+    '&mt RGUI LANG1': {t: かな, h: Cmd}
+    '&mt LGUI ESC': {t: Esc, h: Win}
+    '&mt LCTRL INT5': {t: 無変換, h: Ctrl}
+    '&mt RCTRL INT4': {t: 変換, h: Ctrl}
+    '&kp LGUI': Cmd/Win
+
     '&out OUT_USB': Out USB
     '&out OUT_BLE': Out BLE
 

@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - Shift
-  - {t: LANG2, h: Gui}
+  - {t: 英数, h: Cmd}
   - {t: ␣, h: NAV}
   - {t: ↹, h: ADJ}
   - {t: ⏎, h: SYM}
   - {t: ⌫, h: NUM}
-  - {t: LANG1, h: Gui}
+  - {t: かな, h: Cmd}
   WIN:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,7 +56,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Esc, h: Gui}
+  - {t: Esc, h: Win}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -80,12 +80,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: INT5, h: Ctrl}
+  - {t: 無変換, h: Ctrl}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: INT4, h: Ctrl}
+  - {t: 変換, h: Ctrl}
   NAV:
   - ''
   - ''
@@ -101,7 +101,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - Alt
-  - Gui
+  - Cmd/Win
   - Shift
   - Ctrl
   - ''
